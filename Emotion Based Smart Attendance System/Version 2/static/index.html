@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Emotion Based Smart Attendance System</h1>
+        <form id="attendanceForm">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+            <div class="input-group">
+                <label for="rollNo">Roll Number:</label>
+                <input type="text" id="rollNo" placeholder="Enter your roll number" />
+            </div>
+            <button type="button" id="capture">Capture Photo</button>
+            <video id="video" width="640" height="480" autoplay></video>
+            <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+            <button type="button" id="submit" style="display:none;">Submit</button>
+        </form>
+        <!-- Loading GIF Placeholder -->
+        <div id="loading" style="display:none;">
+            <img src="/static/loading.gif" alt="Loading...">
+        </div>
+        <div id="emotionResult" style="margin-top: 20px;"></div>
+        <!-- Reset Button -->
+        <button type="button" id="reset" style="display:none;">Reset</button>
+        <div id="reportSection">
+            <h2>Download Your Report</h2>
+            <input type="text" id="downloadRollNo" placeholder="Enter your roll number" />
+            <button type="button" id="downloadReport">Download Report</button>
+        </div>        
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

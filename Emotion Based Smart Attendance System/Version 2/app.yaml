@@ -1,0 +1,15 @@
+runtime: python39  # Adjust this based on the Python version you're using
+
+env: standard
+
+# Use Gunicorn as the web server to serve the Flask app, adjust the module path if necessary
+entrypoint: gunicorn -b :$PORT backend.app:app
+
+handlers:
+# This configures Google App Engine to serve the files in the backend/static directory as static files
+- url: /static
+  static_dir: backend/static
+
+# Any URLs that haven't been matched by a static file handler are sent to the application
+- url: /.*
+  script: auto

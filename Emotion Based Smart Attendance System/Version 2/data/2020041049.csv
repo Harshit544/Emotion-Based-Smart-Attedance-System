@@ -1,0 +1,4 @@
+rollNo,name,image_url,emotion,accuracy,date
+2020041070,Harshit Shukla,https://storage.googleapis.com/attendance_management_system/2020021049_20240331134409.jpg,neutral,84.95%,2024-03-31
+2020041060,Dilip Kumar Singh,https://storage.googleapis.com/attendance_management_system/2020021049_20240331134540.jpg,disgust,81.78%,2024-03-31
+2020041008,Abhishek Ojha,https://storage.googleapis.com/attendance_management_system/2020021049_20240331134607.jpg,happy,88.80%,2024-03-31

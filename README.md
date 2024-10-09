@@ -7,3 +7,6 @@ Facial Emotion Analysis: Employed pre-trained deep learning models (CNN) to anal
 Alert Mechanism: Implemented a notification system to promptly alert hostel wardens and parents based on students' emotional responses.
 User-Friendly Interface: Designed intuitive interfaces to facilitate easy access to attendance records and notifications, ensuring a seamless user experience.
 This project not only demonstrates my technical skills but also addresses the importance of emotional well-being in educational settings.
+
+Deployed Link : **http://bhuwan1111.pythonanywhere.com/**
+Certificate Link : https://drive.google.com/file/d/1luC-acrqNfo3dRxcL86ItaoxYM0G5A2X/view?usp=drive_link
